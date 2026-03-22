@@ -81,12 +81,12 @@ a:hover { color: var(--accent-h); }
 }
 
 .nav-logo {
-    font-size: 1.1rem; font-weight: 700; color: var(--text); letter-spacing: -0.5px;
+    font-size: 1.2rem; font-weight: 700; color: var(--text); letter-spacing: -0.5px;
 }
 
 .nav-links { display: flex; list-style: none; gap: 24px; }
 .nav-links a {
-    color: var(--text2); font-size: 0.82rem; font-weight: 500;
+    color: var(--text2); font-size: 0.88rem; font-weight: 500;
     transition: color .15s; position: relative;
 }
 .nav-links a:hover, .nav-links a.active { color: var(--accent); }
@@ -100,7 +100,7 @@ a:hover { color: var(--accent-h); }
 .btn-sm {
     display: inline-flex; align-items: center; gap: 5px;
     padding: 6px 14px; border-radius: 6px;
-    font-size: 0.8rem; font-weight: 600; font-family: inherit;
+    font-size: 0.86rem; font-weight: 600; font-family: inherit;
     background: var(--accent); color: #fff; border: none; cursor: pointer;
     transition: background .15s;
 }
@@ -133,14 +133,14 @@ a:hover { color: var(--accent-h); }
 }
 
 .hero-photo {
-    width: 80px; height: 80px; border-radius: 50%; object-fit: cover;
+    width: 100px; height: 100px; border-radius: 50%; object-fit: cover;
     border: 3px solid var(--border); flex-shrink: 0;
 }
 
 .hero-text { flex: 1; min-width: 260px; }
-.hero-text h1 { font-size: 1.6rem; font-weight: 700; letter-spacing: -0.5px; }
-.hero-role { font-size: 0.92rem; color: var(--text2); margin-top: 2px; }
-.hero-desc { font-size: 0.82rem; color: var(--text3); margin-top: 2px; }
+.hero-text h1 { font-size: 1.9rem; font-weight: 700; letter-spacing: -0.5px; }
+.hero-role { font-size: 1.0rem; color: var(--text2); margin-top: 2px; }
+.hero-desc { font-size: 0.9rem; color: var(--text3); margin-top: 2px; }
 
 .hero-links {
     display: flex; gap: 8px; flex-wrap: wrap;
@@ -149,7 +149,7 @@ a:hover { color: var(--accent-h); }
 .chip {
     display: inline-flex; align-items: center; gap: 6px;
     padding: 7px 14px; border-radius: 8px;
-    font-size: 0.8rem; font-weight: 500;
+    font-size: 0.86rem; font-weight: 500;
     background: var(--tag-bg); color: var(--tag-text);
     border: 1px solid var(--border);
     transition: border-color .15s, color .15s, background .15s;
@@ -165,7 +165,7 @@ a:hover { color: var(--accent-h); }
 .section-alt { background: var(--bg-alt); }
 
 .section-title {
-    font-size: 1.2rem; font-weight: 700; margin-bottom: 24px;
+    font-size: 1.4rem; font-weight: 700; margin-bottom: 24px;
     color: var(--text); letter-spacing: -0.3px;
 }
 
@@ -180,14 +180,14 @@ a:hover { color: var(--accent-h); }
 .exp-row:last-child { border-bottom: none; }
 
 .exp-date {
-    flex-shrink: 0; width: 110px;
-    font-size: 0.78rem; color: var(--text3); font-weight: 500;
+    flex-shrink: 0; width: 120px;
+    font-size: 0.84rem; color: var(--text3); font-weight: 500;
     font-variant-numeric: tabular-nums;
 }
 
 .exp-info { display: flex; flex-direction: column; gap: 1px; }
-.exp-info strong { font-size: 0.92rem; font-weight: 600; }
-.exp-org { font-size: 0.82rem; color: var(--text2); }
+.exp-info strong { font-size: 1.0rem; font-weight: 600; }
+.exp-org { font-size: 0.9rem; color: var(--text2); }
 
 /* ---------- Projects ---------- */
 .projects-grid {
@@ -212,27 +212,27 @@ a:hover { color: var(--accent-h); }
     display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
     margin-bottom: 8px;
 }
-.p-card-top h3 { font-size: 0.95rem; font-weight: 600; flex: 1; min-width: 200px; }
+.p-card-top h3 { font-size: 1.05rem; font-weight: 600; flex: 1; min-width: 200px; }
 
 .p-date {
-    font-size: 0.72rem; color: var(--text3); font-weight: 500;
+    font-size: 0.78rem; color: var(--text3); font-weight: 500;
     white-space: nowrap;
 }
 
 .p-badge {
-    font-size: 0.68rem; font-weight: 600; color: var(--accent);
+    font-size: 0.74rem; font-weight: 600; color: var(--accent);
     background: var(--accent-bg); padding: 2px 8px; border-radius: 10px;
     white-space: nowrap;
 }
 
 .p-card > p {
-    font-size: 0.84rem; color: var(--text2); line-height: 1.5;
+    font-size: 0.9rem; color: var(--text2); line-height: 1.5;
     margin-bottom: 10px;
 }
 
 .tags { display: flex; flex-wrap: wrap; gap: 5px; }
 .tags span {
-    font-size: 0.72rem; font-weight: 500;
+    font-size: 0.78rem; font-weight: 500;
     padding: 3px 9px; border-radius: 4px;
     background: var(--tag-bg); color: var(--tag-text);
 }
@@ -320,19 +320,19 @@ a:hover { color: var(--accent-h); }
 }
 
 .skill-group h3 {
-    font-size: 0.78rem; font-weight: 600; color: var(--text3);
+    font-size: 0.84rem; font-weight: 600; color: var(--text3);
     text-transform: uppercase; letter-spacing: 0.5px;
     margin-bottom: 8px;
 }
 
 .skill-group .tags span {
-    font-size: 0.8rem; padding: 5px 12px; border-radius: 6px;
+    font-size: 0.86rem; padding: 5px 12px; border-radius: 6px;
     border: 1px solid var(--border);
 }
 
 /* ---------- Certs ---------- */
 .sub-title {
-    font-size: 1rem; font-weight: 600; margin: 36px 0 16px;
+    font-size: 1.15rem; font-weight: 600; margin: 36px 0 16px;
 }
 
 .cert-list { display: flex; flex-direction: column; gap: 0; }
@@ -343,8 +343,8 @@ a:hover { color: var(--accent-h); }
     gap: 12px;
 }
 .cert-row:last-child { border-bottom: none; }
-.cert-row strong { font-size: 0.88rem; font-weight: 500; }
-.cert-row span { font-size: 0.78rem; color: var(--text3); white-space: nowrap; }
+.cert-row strong { font-size: 0.95rem; font-weight: 500; }
+.cert-row span { font-size: 0.84rem; color: var(--text3); white-space: nowrap; }
 
 /* ---------- Awards ---------- */
 .awards-list { display: flex; flex-direction: column; gap: 0; }
@@ -358,21 +358,21 @@ a:hover { color: var(--accent-h); }
 .award-place {
     flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%;
     display: flex; align-items: center; justify-content: center;
-    font-size: 0.7rem; font-weight: 700; color: #fff;
+    font-size: 0.76rem; font-weight: 700; color: #fff;
 }
 .award-place.gold { background: var(--gold); }
 .award-place.silver { background: var(--silver); }
 .award-place.bronze { background: var(--bronze); }
 .award-place.medal { background: var(--accent); }
 
-.award-row strong { font-size: 0.9rem; font-weight: 500; }
+.award-row strong { font-size: 0.98rem; font-weight: 500; }
 
 /* ---------- Footer ---------- */
 .footer {
     border-top: 1px solid var(--border);
     padding: 20px; text-align: center;
 }
-.footer p { color: var(--text3); font-size: 0.78rem; }
+.footer p { color: var(--text3); font-size: 0.84rem; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 768px) {
@@ -399,7 +399,7 @@ a:hover { color: var(--accent-h); }
 }
 
 @media (max-width: 480px) {
-    .hero-text h1 { font-size: 1.3rem; }
+    .hero-text h1 { font-size: 1.5rem; }
     .hero-links { flex-direction: column; align-items: center; }
     .chip { width: 100%; justify-content: center; }
 }

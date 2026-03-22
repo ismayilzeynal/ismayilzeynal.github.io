@@ -4,7 +4,7 @@
     // Theme
     const toggle = document.getElementById('themeToggle');
     const html = document.documentElement;
-    html.setAttribute('data-theme', localStorage.getItem('theme') || 'light');
+    html.setAttribute('data-theme', localStorage.getItem('theme') || 'dark');
 
     toggle.addEventListener('click', () => {
         const next = html.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
