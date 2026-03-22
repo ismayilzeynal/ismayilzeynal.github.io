@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ismayil Zeynalov | Digital Transformation & Data Analytics</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation — always visible, compact -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">IZ</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#awards">Awards</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="CV Ismayil Zeynalov (summary).pdf" target="_blank" rel="noopener" class="btn btn-sm btn-primary">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    CV
+                </a>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                    <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero — compact, all key info at a glance -->
+    <section class="hero" id="hero">
+        <div class="hero-container">
+            <img src="pp (circle).png" alt="Ismayil Zeynalov" class="hero-photo">
+            <div class="hero-text">
+                <h1>Ismayil Zeynalov</h1>
+                <p class="hero-role">Acting Digital Transformation Team Lead @ Baku State University</p>
+                <p class="hero-desc">Data Analytics &bull; Software Development &bull; IT Project Management</p>
+            </div>
+            <div class="hero-links">
+                <a href="mailto:ismayilbaxish@gmail.com" class="chip" aria-label="Email">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    Email
+                </a>
+                <a href="tel:+994502652020" class="chip" aria-label="Phone">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    +994 50 265 20 20
+                </a>
+                <a href="https://linkedin.com/in/ismayil-zeynal" target="_blank" rel="noopener" class="chip">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                    LinkedIn
+                </a>
+                <a href="https://github.com/ismayilzeynal" target="_blank" rel="noopener" class="chip">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                    GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience — compact rows, scannable -->
+    <section class="section" id="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="exp-list">
+                <div class="exp-row">
+                    <span class="exp-date">2025 &ndash; now</span>
+                    <div class="exp-info">
+                        <strong>Acting Digital Transformation Team Lead</strong>
+                        <span class="exp-org">Baku State University</span>
+                    </div>
+                </div>
+                <div class="exp-row">
+                    <span class="exp-date">2024 &ndash; now</span>
+                    <div class="exp-info">
+                        <strong>IT Specialist & Data Analyst</strong>
+                        <span class="exp-org">Baku State University &mdash; Rectory</span>
+                    </div>
+                </div>
+                <div class="exp-row">
+                    <span class="exp-date">2022 &ndash; 2023</span>
+                    <div class="exp-info">
+                        <strong>Full Stack Web Developer</strong>
+                        <span class="exp-org">Codemy.az</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects — grid with quick-scan cards -->
+    <section class="section section-alt" id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+
+                <article tabindex="0" class="p-card has-overlay" data-overlay="Internal Project" data-overlay-type="internal">
+                    <div class="p-card-top">
+                        <h3>Automated News Monitoring & Analysis</h3>
+                        <span class="p-date">2025–2026</span>
+                    </div>
+                    <p>Daily scraping of news articles from media sites with a browsing/filtering web interface.</p>
+                    <div class="tags">
+                        <span>Python</span><span>BeautifulSoup</span><span>Selenium</span><span>Next.js</span>
+                    </div>
+                </article>
+
+                <article tabindex="0" class="p-card has-overlay" data-overlay="Internal Project" data-overlay-type="internal">
+                    <div class="p-card-top">
+                        <h3>Department Management System</h3>
+                        <span class="p-date">2025–2026</span>
+                    </div>
+                    <p>Role-based app for managing events, projects & student achievements with multi-level access control.</p>
+                    <div class="tags">
+                        <span>Next.js</span><span>ASP.NET 8</span><span>MySQL</span><span>JWT</span>
+                    </div>
+                </article>
+
+                <article tabindex="0" class="p-card has-overlay" data-overlay="Will be published soon" data-overlay-type="soon">
+                    <div class="p-card-top">
+                        <h3>Virtual Campus Tour</h3>
+                        <span class="p-date">2025–2026</span>
+                    </div>
+                    <p>Interactive 360&deg; virtual tour of the university using Matterport with floor plan navigation.</p>
+                    <div class="tags">
+                        <span>Next.js</span><span>Matterport</span>
+                    </div>
+                </article>
+
+                <a href="https://www.digitalgenc.az/" target="_blank" rel="noopener" class="p-card p-card-link has-overlay" data-overlay="Live" data-overlay-type="live">
+                    <div class="p-card-top">
+                        <h3>Digital Volunteer Platform</h3>
+                        <span class="p-badge">Grant Project</span>
+                        <span class="p-date">2025</span>
+                    </div>
+                    <p>Platform connecting volunteers with community opportunities, developed as a grant-funded initiative.</p>
+                    <div class="tags">
+                        <span>Next.js</span><span>ASP.NET 8</span><span>MySQL</span>
+                    </div>
+                </a>
+
+                <article tabindex="0" class="p-card has-overlay" data-overlay="Internal Project" data-overlay-type="internal">
+                    <div class="p-card-top">
+                        <h3>3D Library Digitization</h3>
+                        <span class="p-date">2025</span>
+                    </div>
+                    <p>Digital catalog & 3D replica of Musa Aliyev's library — fuzzy search across ~1,500 books with physical location mapping.</p>
+                    <div class="tags">
+                        <span>Vue/Nuxt</span><span>3D Modeling</span>
+                    </div>
+                </article>
+
+                <article tabindex="0" class="p-card has-overlay" data-overlay="Internal Project" data-overlay-type="internal">
+                    <div class="p-card-top">
+                        <h3>Graduation QR Registration</h3>
+                        <span class="p-date">2025</span>
+                    </div>
+                    <p>QR-based entry system for graduation — digital invitations, identity verification, duplicate prevention.</p>
+                    <div class="tags">
+                        <span>ASP.NET 8</span><span>MySQL</span><span>HTML/CSS/JS</span>
+                    </div>
+                </article>
+
+                <article tabindex="0" class="p-card has-overlay" data-overlay="Internal Project" data-overlay-type="internal">
+                    <div class="p-card-top">
+                        <h3>HR Management App</h3>
+                        <span class="p-date">2025</span>
+                    </div>
+                    <p>Centralized employee management with filtering, export, and Power BI analytics integration.</p>
+                    <div class="tags">
+                        <span>Vue/Nuxt</span><span>ASP.NET 8</span><span>MySQL</span><span>Power BI</span>
+                    </div>
+                </article>
+
+                <article tabindex="0" class="p-card has-overlay" data-overlay="Internal Project" data-overlay-type="internal">
+                    <div class="p-card-top">
+                        <h3>Task Management System</h3>
+                        <span class="p-date">2025</span>
+                    </div>
+                    <p>Cloud-based task tracker for rector's secretariat — status tracking, priority coding, auto change logs.</p>
+                    <div class="tags">
+                        <span>Google Sheets</span><span>Google Workspace</span>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills — scannable grouped tags -->
+    <section class="section" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-compact">
+                <div class="skill-group">
+                    <h3>Data & Analytics</h3>
+                    <div class="tags"><span>Python</span><span>SQL</span><span>Power BI</span><span>Tableau</span><span>Excel</span><span>Google Sheets</span></div>
+                </div>
+                <div class="skill-group">
+                    <h3>Programming</h3>
+                    <div class="tags"><span>C++</span><span>C# / .NET</span><span>JavaScript</span><span>Python</span></div>
+                </div>
+                <div class="skill-group">
+                    <h3>Web</h3>
+                    <div class="tags"><span>HTML/CSS</span><span>SCSS</span><span>ASP.NET MVC</span><span>REST API</span></div>
+                </div>
+<div class="skill-group">
+                    <h3>Other</h3>
+                    <div class="tags"><span>IT Project Management</span><span>Technology Integration</span><span>Algorithms</span><span>Number Theory</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education — compact -->
+    <section class="section section-alt" id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="exp-list">
+                <div class="exp-row">
+                    <span class="exp-date">2024 &ndash; 2026</span>
+                    <div class="exp-info">
+                        <strong>MSc Computer Science</strong>
+                        <span class="exp-org">Baku State University</span>
+                    </div>
+                </div>
+                <div class="exp-row">
+                    <span class="exp-date">2023 &ndash; 2024</span>
+                    <div class="exp-info">
+                        <strong>BSc Computer Science</strong>
+                        <span class="exp-org">Holon Institute of Technology, Israel</span>
+                    </div>
+                </div>
+                <div class="exp-row">
+                    <span class="exp-date">2020 &ndash; 2024</span>
+                    <div class="exp-info">
+                        <strong>BSc Computer Science</strong>
+                        <span class="exp-org">Baku State University</span>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="sub-title">Certifications</h3>
+            <div class="cert-list">
+                <div class="cert-row"><strong>IT Specialist - Data Analytics</strong> <span>Certiport</span></div>
+                <div class="cert-row"><strong>Google Data Analytics Professional</strong> <span>Google / Coursera</span></div>
+                <div class="cert-row"><strong>Data Scientist - Analytics</strong> <span>Codecademy</span></div>
+                <div class="cert-row"><strong>HCIA-openEuler & HCIA-openGauss</strong> <span>Huawei ICT Academy</span></div>
+                <div class="cert-row"><strong>Data Analytics Skill Booster</strong> <span>Technest</span></div>
+                <div class="cert-row"><strong>React Native Mobile Developer</strong> <span>Technest</span></div>
+                <div class="cert-row"><strong>Software Development</strong> <span>Code Academy</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards — compact horizontal list -->
+    <section class="section" id="awards">
+        <div class="container">
+            <h2 class="section-title">Awards</h2>
+            <div class="awards-list">
+                <div class="award-row">
+                    <span class="award-place gold">1st</span>
+                    <div><strong>BSU Student Programming Contest</strong></div>
+                </div>
+                <div class="award-row">
+                    <span class="award-place silver">2nd</span>
+                    <div><strong>ICPC Azerbaijan Qualifications</strong></div>
+                </div>
+                <div class="award-row">
+                    <span class="award-place bronze">3rd</span>
+                    <div><strong>ICPC Azerbaijan Final</strong></div>
+                </div>
+                <div class="award-row">
+                    <span class="award-place bronze">3rd</span>
+                    <div><strong>PMIL 50 Years Informatics Olympiad</strong></div>
+                </div>
+                <div class="award-row">
+                    <span class="award-place medal">4th</span>
+                    <div><strong>Azercell "Code for Future" Hackathon</strong></div>
+                </div>
+                <div class="award-row">
+                    <span class="award-place medal">HA</span>
+                    <div><strong>ICPC Southern Caucasus Open Championship</strong></div>
+                </div>
+                <div class="award-row">
+                    <span class="award-place medal">HM</span>
+                    <div><strong>ICPC NEERC</strong></div>
+                </div>
+                <div class="award-row">
+                    <span class="award-place medal">Fin</span>
+                    <div><strong>TeknoFest &mdash; UAV Category</strong></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Ismayil Zeynalov</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
