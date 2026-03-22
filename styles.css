@@ -133,9 +133,11 @@ a:hover { color: var(--accent-h); }
 }
 
 .hero-photo {
-    width: 100px; height: 100px; border-radius: 50%; object-fit: cover;
+    width: 130px; height: 130px; border-radius: 50%; object-fit: cover;
     border: 3px solid var(--border); flex-shrink: 0;
 }
+
+.nowrap { white-space: nowrap; }
 
 .hero-text { flex: 1; min-width: 260px; }
 .hero-text h1 { font-size: 1.9rem; font-weight: 700; letter-spacing: -0.5px; }
@@ -386,8 +388,11 @@ a:hover { color: var(--accent-h); }
     .hamburger { display: flex; }
 
     .hero-container { flex-direction: column; text-align: center; gap: 16px; }
+    .hero-photo { width: 100px; height: 100px; }
     .hero-role { white-space: normal; }
-    .hero-links { justify-content: center; }
+    .hero-links { justify-content: center; flex-direction: row; flex-wrap: nowrap; }
+    .chip-label { display: none; }
+    .chip { width: auto; padding: 9px; }
 
     .exp-row { flex-direction: column; gap: 2px; }
     .exp-date { width: auto; }
@@ -401,8 +406,6 @@ a:hover { color: var(--accent-h); }
 
 @media (max-width: 480px) {
     .hero-text h1 { font-size: 1.5rem; }
-    .hero-links { flex-direction: column; align-items: center; }
-    .chip { width: 100%; justify-content: center; }
 }
 
 /* ---------- Fade-in ---------- */
