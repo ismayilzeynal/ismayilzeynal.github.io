@@ -139,7 +139,7 @@ a:hover { color: var(--accent-h); }
 
 .hero-text { flex: 1; min-width: 260px; }
 .hero-text h1 { font-size: 1.9rem; font-weight: 700; letter-spacing: -0.5px; }
-.hero-role { font-size: 1.0rem; color: var(--text2); margin-top: 2px; }
+.hero-role { font-size: 1.0rem; color: var(--text2); margin-top: 2px; white-space: nowrap; }
 .hero-desc { font-size: 0.9rem; color: var(--text3); margin-top: 2px; }
 
 .hero-links {
@@ -386,6 +386,7 @@ a:hover { color: var(--accent-h); }
     .hamburger { display: flex; }
 
     .hero-container { flex-direction: column; text-align: center; gap: 16px; }
+    .hero-role { white-space: normal; }
     .hero-links { justify-content: center; }
 
     .exp-row { flex-direction: column; gap: 2px; }
